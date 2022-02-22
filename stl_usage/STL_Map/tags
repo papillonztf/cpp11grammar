@@ -1,0 +1,11 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PAIR	main.cpp	/^typedef pair<int, string> PAIR;$/;"	t	file:
+cmp	main.cpp	/^bool cmp(const PAIR &x, const PAIR &y)\/\/sort的第三个参数，为比较函数名，因为比较的对象是vector元素--pair<int,string>对象--中的second成员。$/;"	f	signature:(const PAIR &x, const PAIR &y)
+main	main.cpp	/^int main()$/;"	f	signature:()
+operator <<	main.cpp	/^    ostream& operator<<(ostream& out,pair<T1,T2> mappair)\/\/<<输出运算符重载,必须作为非成员函数$/;"	f	signature:(ostream& out,pair<T1,T2> mappair)
+showPair	main.cpp	/^	void showPair(T i)$/;"	f	signature:(T i)

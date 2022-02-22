@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__RANDNUMGENERATION_H_	randnumgeneration.h	5;"	d
+main	main.cpp	/^int main()$/;"	f	signature:()
+main	test.cpp	/^int main()$/;"	f	signature:()
+randomint	randnumgeneration.cpp	/^int randomint()$/;"	f	signature:()
+randomint	randnumgeneration.h	/^int randomint();\/\/随机数生成函数$/;"	p	signature:()
+randomlong	randnumgeneration.cpp	/^unsigned long randomlong()$/;"	f	signature:()
+randomlong	randnumgeneration.h	/^unsigned long randomlong();\/\/随机数扩大生成函数$/;"	p	signature:()
+randomsepdiff	randnumgeneration.h	/^int* randomsepdiff(int*seq,int m,int n ,int num);\/\/n-m+1>>num==>随机等概率输出num个不同数$/;"	p	signature:(int*seq,int m,int n ,int num)
+randomseq	randnumgeneration.cpp	/^int* randomseq(int *seq,int n)$/;"	f	signature:(int *seq,int n)
+randomseq	randnumgeneration.h	/^int* randomseq(int* seq,int n);\/\/随机n序列生成函数$/;"	p	signature:(int* seq,int n)
+randomseqdiff	randnumgeneration.cpp	/^int* randomseqdiff(int* seq,int n)$/;"	f	signature:(int* seq,int n)
+randomseqdiff	randnumgeneration.cpp	/^int* randomseqdiff(int*seq ,int m,int n,int num)\/\/n-m+1>>num==>[m,n]等概率随机输出num个数$/;"	f	signature:(int*seq ,int m,int n,int num)
+randomseqdiff	randnumgeneration.h	/^int* randomseqdiff(int*seq, int n);\/\/随机n不重复数序列生成函数$/;"	p	signature:(int*seq, int n)
+showElement	randnumgeneration.cpp	/^void showElement(int i)$/;"	f	signature:(int i)
+showElement	randnumgeneration.h	/^void showElement(int i);$/;"	p	signature:(int i)

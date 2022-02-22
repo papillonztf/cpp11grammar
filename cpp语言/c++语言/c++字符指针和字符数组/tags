@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GetStringslength	main.cpp	/^int GetStringslength(char * x)$/;"	f	signature:(char * x)
+GetStringslength	main.cpp	/^int GetStringslength(char * x);$/;"	p	file:	signature:(char * x)
+i	main.cpp	/^	int i;$/;"	m	class:test	file:	access:private
+i	main.cpp	/^	int i;$/;"	m	struct:struc	file:	access:public
+j	main.cpp	/^	char j;$/;"	m	class:test	file:	access:private
+j	main.cpp	/^	char j;$/;"	m	struct:struc	file:	access:public
+k	main.cpp	/^	int * k;$/;"	m	struct:struc	file:	access:public
+k	main.cpp	/^	int* k;$/;"	m	class:test	file:	access:private
+m	main.cpp	/^	static int m;$/;"	m	class:test	file:	access:private
+main	main.cpp	/^int main()$/;"	f	signature:()
+struc	main.cpp	/^struct struc$/;"	s	file:
+struc::i	main.cpp	/^	int i;$/;"	m	struct:struc	file:	access:public
+struc::j	main.cpp	/^	char j;$/;"	m	struct:struc	file:	access:public
+struc::k	main.cpp	/^	int * k;$/;"	m	struct:struc	file:	access:public
+struct1	main.cpp	/^}struct1;$/;"	v	typeref:struct:struc
+test	main.cpp	/^class test$/;"	c	file:
+test::i	main.cpp	/^	int i;$/;"	m	class:test	file:	access:private
+test::j	main.cpp	/^	char j;$/;"	m	class:test	file:	access:private
+test::k	main.cpp	/^	int* k;$/;"	m	class:test	file:	access:private
+test::m	main.cpp	/^	static int m;$/;"	m	class:test	file:	access:private

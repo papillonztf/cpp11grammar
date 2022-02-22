@@ -1,0 +1,84 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddToQueue	logger.cpp	/^    void AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...);$/;"	p	class:Logger	file:	access:public	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+AddToQueue	logger.cpp	/^void Logger::AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)$/;"	f	class:Logger	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+AddToQueue	logger.h	/^    void AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...);$/;"	p	class:Logger	access:public	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+GetInstance	logger.cpp	/^    static Logger& GetInstance();$/;"	p	class:Logger	file:	access:public	signature:()
+GetInstance	logger.cpp	/^Logger& Logger::GetInstance()$/;"	f	class:Logger	signature:()
+GetInstance	logger.h	/^    static Logger& GetInstance();$/;"	p	class:Logger	access:public	signature:()
+LogError	logger.cpp	17;"	d	file:
+LogError	logger.h	17;"	d
+LogInfo	logger.cpp	15;"	d	file:
+LogInfo	logger.h	15;"	d
+LogWarning	logger.cpp	16;"	d	file:
+LogWarning	logger.h	16;"	d
+Logger	logger.cpp	/^    Logger() = default;$/;"	p	class:Logger	file:	access:private	signature:()
+Logger	logger.cpp	/^class Logger$/;"	c	file:
+Logger	logger.h	/^    Logger() = default;$/;"	p	class:Logger	access:private	signature:()
+Logger	logger.h	/^class Logger$/;"	c
+Logger::AddToQueue	logger.cpp	/^    void AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...);$/;"	p	class:Logger	file:	access:public	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+Logger::AddToQueue	logger.cpp	/^void Logger::AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)$/;"	f	class:Logger	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+Logger::AddToQueue	logger.h	/^    void AddToQueue(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...);$/;"	p	class:Logger	access:public	signature:(const char* pszLevel, const char* pszFile, int lineNo, const char* pszFuncSig, char* pszFmt, ...)
+Logger::GetInstance	logger.cpp	/^    static Logger& GetInstance();$/;"	p	class:Logger	file:	access:public	signature:()
+Logger::GetInstance	logger.cpp	/^Logger& Logger::GetInstance()$/;"	f	class:Logger	signature:()
+Logger::GetInstance	logger.h	/^    static Logger& GetInstance();$/;"	p	class:Logger	access:public	signature:()
+Logger::Logger	logger.cpp	/^    Logger() = default;$/;"	p	class:Logger	file:	access:private	signature:()
+Logger::Logger	logger.h	/^    Logger() = default;$/;"	p	class:Logger	access:private	signature:()
+Logger::SetFileName	logger.cpp	/^    void SetFileName(const char* filename);$/;"	p	class:Logger	file:	access:public	signature:(const char* filename)
+Logger::SetFileName	logger.cpp	/^void Logger::SetFileName(const char* filename)$/;"	f	class:Logger	signature:(const char* filename)
+Logger::SetFileName	logger.h	/^    void SetFileName(const char* filename);$/;"	p	class:Logger	access:public	signature:(const char* filename)
+Logger::Start	logger.cpp	/^    bool Start();$/;"	p	class:Logger	file:	access:public	signature:()
+Logger::Start	logger.cpp	/^bool Logger::Start()$/;"	f	class:Logger	signature:()
+Logger::Start	logger.h	/^    bool Start();$/;"	p	class:Logger	access:public	signature:()
+Logger::Stop	logger.cpp	/^    void Stop();$/;"	p	class:Logger	file:	access:public	signature:()
+Logger::Stop	logger.cpp	/^void Logger::Stop()$/;"	f	class:Logger	signature:()
+Logger::Stop	logger.h	/^    void Stop();$/;"	p	class:Logger	access:public	signature:()
+Logger::cv_	logger.cpp	/^    std::condition_variable         cv_;            \/\/有新的日志到来的标识$/;"	m	class:Logger	file:	access:private
+Logger::cv_	logger.h	/^    std::condition_variable         cv_;            \/\/有新的日志到来的标识$/;"	m	class:Logger	access:private
+Logger::filename_	logger.cpp	/^    std::string                     filename_;$/;"	m	class:Logger	file:	access:private
+Logger::filename_	logger.h	/^    std::string                     filename_;$/;"	m	class:Logger	access:private
+Logger::mutex_	logger.cpp	/^    std::mutex                      mutex_;$/;"	m	class:Logger	file:	access:private
+Logger::mutex_	logger.h	/^    std::mutex                      mutex_;$/;"	m	class:Logger	access:private
+Logger::queue_	logger.cpp	/^    std::list<std::string>          queue_;$/;"	m	class:Logger	file:	access:private
+Logger::queue_	logger.h	/^    std::list<std::string>          queue_;$/;"	m	class:Logger	access:private
+Logger::rhs	logger.cpp	/^    Logger& operator =(Logger& rhs) = delete;$/;"	m	class:Logger	file:	access:private
+Logger::rhs	logger.cpp	/^    Logger(const Logger& rhs) = delete;$/;"	m	class:Logger	file:	access:private
+Logger::rhs	logger.h	/^    Logger& operator =(Logger& rhs) = delete;$/;"	m	class:Logger	access:private
+Logger::rhs	logger.h	/^    Logger(const Logger& rhs) = delete;$/;"	m	class:Logger	access:private
+Logger::spthread_	logger.cpp	/^    std::shared_ptr<std::thread>    spthread_;$/;"	m	class:Logger	file:	access:private
+Logger::spthread_	logger.h	/^    std::shared_ptr<std::thread>    spthread_;$/;"	m	class:Logger	access:private
+Logger::threadfunc	logger.cpp	/^    void threadfunc();$/;"	p	class:Logger	file:	access:private	signature:()
+Logger::threadfunc	logger.cpp	/^void Logger::threadfunc()$/;"	f	class:Logger	signature:()
+Logger::threadfunc	logger.h	/^    void threadfunc();$/;"	p	class:Logger	access:private	signature:()
+SetFileName	logger.cpp	/^    void SetFileName(const char* filename);$/;"	p	class:Logger	file:	access:public	signature:(const char* filename)
+SetFileName	logger.cpp	/^void Logger::SetFileName(const char* filename)$/;"	f	class:Logger	signature:(const char* filename)
+SetFileName	logger.h	/^    void SetFileName(const char* filename);$/;"	p	class:Logger	access:public	signature:(const char* filename)
+Start	logger.cpp	/^    bool Start();$/;"	p	class:Logger	file:	access:public	signature:()
+Start	logger.cpp	/^bool Logger::Start()$/;"	f	class:Logger	signature:()
+Start	logger.h	/^    bool Start();$/;"	p	class:Logger	access:public	signature:()
+Stop	logger.cpp	/^    void Stop();$/;"	p	class:Logger	file:	access:public	signature:()
+Stop	logger.cpp	/^void Logger::Stop()$/;"	f	class:Logger	signature:()
+Stop	logger.h	/^    void Stop();$/;"	p	class:Logger	access:public	signature:()
+__LOGGER_H__	logger.cpp	4;"	d	file:
+__LOGGER_H__	logger.h	4;"	d
+cv_	logger.cpp	/^    std::condition_variable         cv_;            \/\/有新的日志到来的标识$/;"	m	class:Logger	file:	access:private
+cv_	logger.h	/^    std::condition_variable         cv_;            \/\/有新的日志到来的标识$/;"	m	class:Logger	access:private
+filename_	logger.cpp	/^    std::string                     filename_;$/;"	m	class:Logger	file:	access:private
+filename_	logger.h	/^    std::string                     filename_;$/;"	m	class:Logger	access:private
+mutex_	logger.cpp	/^    std::mutex                      mutex_;$/;"	m	class:Logger	file:	access:private
+mutex_	logger.h	/^    std::mutex                      mutex_;$/;"	m	class:Logger	access:private
+queue_	logger.cpp	/^    std::list<std::string>          queue_;$/;"	m	class:Logger	file:	access:private
+queue_	logger.h	/^    std::list<std::string>          queue_;$/;"	m	class:Logger	access:private
+rhs	logger.cpp	/^    Logger& operator =(Logger& rhs) = delete;$/;"	m	class:Logger	file:	access:private
+rhs	logger.cpp	/^    Logger(const Logger& rhs) = delete;$/;"	m	class:Logger	file:	access:private
+rhs	logger.h	/^    Logger& operator =(Logger& rhs) = delete;$/;"	m	class:Logger	access:private
+rhs	logger.h	/^    Logger(const Logger& rhs) = delete;$/;"	m	class:Logger	access:private
+spthread_	logger.cpp	/^    std::shared_ptr<std::thread>    spthread_;$/;"	m	class:Logger	file:	access:private
+spthread_	logger.h	/^    std::shared_ptr<std::thread>    spthread_;$/;"	m	class:Logger	access:private
+threadfunc	logger.cpp	/^    void threadfunc();$/;"	p	class:Logger	file:	access:private	signature:()
+threadfunc	logger.cpp	/^void Logger::threadfunc()$/;"	f	class:Logger	signature:()
+threadfunc	logger.h	/^    void threadfunc();$/;"	p	class:Logger	access:private	signature:()

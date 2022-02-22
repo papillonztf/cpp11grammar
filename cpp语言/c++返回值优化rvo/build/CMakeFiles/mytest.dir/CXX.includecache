@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zitengfei/program/git_repo/cppbase/cpp语言/c++返回值优化rvo/src/Test.cpp
+iostream
+-
+string
+-
+cstring
+-
+Test.h
+/home/zitengfei/program/git_repo/cppbase/cpp语言/c++返回值优化rvo/src/Test.h
+
+/home/zitengfei/program/git_repo/cppbase/cpp语言/c++返回值优化rvo/src/Test.h
+string
+-
+
+/home/zitengfei/program/git_repo/cppbase/cpp语言/c++返回值优化rvo/src/main.cpp
+iostream
+-
+Test.h
+/home/zitengfei/program/git_repo/cppbase/cpp语言/c++返回值优化rvo/src/Test.h
+

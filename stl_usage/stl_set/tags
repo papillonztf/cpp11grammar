@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+PAIR	main.cpp	/^typedef pair<int, string> PAIR;$/;"	t	file:
+Score	main.cpp	/^        Score(int i):score(i){};$/;"	f	class:Score	access:public	signature:(int i)
+Score	main.cpp	/^class Score$/;"	c	file:
+Score::Score	main.cpp	/^        Score(int i):score(i){};$/;"	f	class:Score	access:public	signature:(int i)
+Score::score	main.cpp	/^        int score;$/;"	m	class:Score	file:	access:private
+ScoreName	main.cpp	/^        ScoreName(string name,int i):studentname(name),score(i){};$/;"	f	class:ScoreName	access:public	signature:(string name,int i)
+ScoreName	main.cpp	/^class ScoreName$/;"	c	file:
+ScoreName::ScoreName	main.cpp	/^        ScoreName(string name,int i):studentname(name),score(i){};$/;"	f	class:ScoreName	access:public	signature:(string name,int i)
+ScoreName::score	main.cpp	/^        int score;$/;"	m	class:ScoreName	file:	access:private
+ScoreName::studentname	main.cpp	/^        string studentname;$/;"	m	class:ScoreName	file:	access:private
+ShowElement	main.cpp	/^class ShowElement$/;"	c	file:
+ShowElement::operator ()	main.cpp	/^    void operator()(T1 i)$/;"	f	class:ShowElement	access:public	signature:(T1 i)
+ShowElement::var	main.cpp	/^    T2 var;$/;"	m	class:ShowElement	file:	access:private
+cmp	main.cpp	/^bool cmp(const PAIR &x, const PAIR &y)\/\/sort的第三个参数，为比较函数名，因为比较的对象是vector元素--pair<int,string>对象--中的second成员。$/;"	f	signature:(const PAIR &x, const PAIR &y)
+g_int	main.cpp	/^int g_int;$/;"	v
+main	main.cpp	/^int main()$/;"	f	signature:()
+operator ()	main.cpp	/^    void operator()(T1 i)$/;"	f	class:ShowElement	access:public	signature:(T1 i)
+score	main.cpp	/^        int score;$/;"	m	class:Score	file:	access:private
+score	main.cpp	/^        int score;$/;"	m	class:ScoreName	file:	access:private
+showElement	main.cpp	/^void showElement(T element)\/\/元素而不是其迭代器--普通函数作为泛型算法for_each的第三个参数$/;"	f	signature:(T element)
+studentname	main.cpp	/^        string studentname;$/;"	m	class:ScoreName	file:	access:private
+var	main.cpp	/^    T2 var;$/;"	m	class:ShowElement	file:	access:private

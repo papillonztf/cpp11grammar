@@ -1,0 +1,21 @@
+--------------
+USE_NONRVO = 1
+USE_SWITCH = 0 :Test test = fun1()
+--------------
+default constructor：
+shallow copy) move constructor:
+0--decontructor:
+shallow copy) move constructor:
+0--decontructor:
+1--decontructor:
+--------------
+USE_NONRVO = 1
+USE_SWITCH = 1 :test = fun1()
+--------------
+default constructor：
+default constructor：
+shallow copy) move constructor:
+0--decontructor:
+shallow assign) move assignment:
+0--decontructor:
+1--decontructor:

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+__gnu_cxx	main.cpp	/^    namespace __gnu_cxx\/\/模板特化必须在该模板的同一命名空间$/;"	n	file:
+__gnu_cxx::hash	main.cpp	/^        class hash<string>$/;"	c	namespace:__gnu_cxx	file:
+__gnu_cxx::hash::operator ()	main.cpp	/^                 size_t operator()( const string& str) const  \/\/模板特化必须加const两个$/;"	f	class:__gnu_cxx::hash	access:public	signature:( const string& str) const
+cmpFunctor	main.cpp	/^    class cmpFunctor$/;"	c	file:
+cmpFunctor::operator ()	main.cpp	/^            bool operator()(Key oldKey,Key newKey)$/;"	f	class:cmpFunctor	access:public	signature:(Key oldKey,Key newKey)
+hash	main.cpp	/^        class hash<string>$/;"	c	namespace:__gnu_cxx	file:
+main	main.cpp	/^int main()$/;"	f	signature:()
+operator ()	main.cpp	/^                 size_t operator()( const string& str) const  \/\/模板特化必须加const两个$/;"	f	class:__gnu_cxx::hash	access:public	signature:( const string& str) const
+operator ()	main.cpp	/^            bool operator()(Key oldKey,Key newKey)$/;"	f	class:cmpFunctor	access:public	signature:(Key oldKey,Key newKey)
+operator <<	main.cpp	/^    ostream& operator<<(ostream& out,pair<T1,T2> mappair)\/\/<<输出运算符重载,必须作为非成员函数$/;"	f	signature:(ostream& out,pair<T1,T2> mappair)
+showPair	main.cpp	/^	void showPair(T i)$/;"	f	signature:(T i)

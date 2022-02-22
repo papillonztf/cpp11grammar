@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g -fno-elide-constructors -Wall -O0 -Wno-unused-variable   -rdynamic CMakeFiles/mytest.dir/src/Test.cpp.o CMakeFiles/mytest.dir/src/main.cpp.o  -o ../bin/mytest 

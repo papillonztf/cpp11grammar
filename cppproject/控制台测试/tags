@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+GUIRender	main.cpp	/^int GUIRender(){$/;"	f	signature:()
+InitTerm	main.cpp	/^void InitTerm(){$/;"	f	signature:()
+KBProc	main.cpp	/^void* KBProc(void* argsPtr){$/;"	f	signature:(void* argsPtr)
+SYSTEM	consolerun.cpp	7;"	d	file:
+SigChgWinSize	main.cpp	/^void SigChgWinSize(int signal){$/;"	f	signature:(int signal)
+UnintTerm	main.cpp	/^void UnintTerm(){$/;"	f	signature:()
+ab	test.cpp	/^class ab{$/;"	c	file:
+ab::test	test.cpp	/^    void test();$/;"	p	class:ab	file:	access:private	signature:()
+close_keyboard	console_key_test.c	/^void close_keyboard()$/;"	f
+close_keyboard	console_key_test.c	/^void close_keyboard(void);$/;"	p	file:	signature:(void)
+init_keyboard	console_key_test.c	/^void init_keyboard()$/;"	f
+init_keyboard	console_key_test.c	/^void init_keyboard(void);$/;"	p	file:	signature:(void)
+initial_settings	console_key_test.c	/^static struct termios initial_settings, new_settings;$/;"	v	typeref:struct:termios	file:
+kbhit	console_key_test.c	/^int kbhit()$/;"	f
+kbhit	console_key_test.c	/^int kbhit(void);$/;"	p	file:	signature:(void)
+key_info	keyboardlisten_test.c	/^struct input_event key_info;$/;"	v	typeref:struct:input_event
+main	console_key_test.c	/^int main()$/;"	f
+main	consolerun.cpp	/^int main(int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+main	keyboardlisten_test.c	/^int main(){$/;"	f
+main	main.cpp	/^int main(){$/;"	f	signature:()
+main	test.cpp	/^int main(){$/;"	f	signature:()
+new_settings	console_key_test.c	/^static struct termios initial_settings, new_settings;$/;"	v	typeref:struct:	file:
+new_termios	main.cpp	/^static struct termios old_termios,new_termios;$/;"	v	typeref:struct:	file:
+old_termios	main.cpp	/^static struct termios old_termios,new_termios;$/;"	v	typeref:struct:termios	file:
+peek_character	console_key_test.c	/^static int peek_character = -1;$/;"	v	file:
+readch	console_key_test.c	/^int readch()$/;"	f
+readch	console_key_test.c	/^int readch(void); $/;"	p	file:	signature:(void)
+test	test.cpp	/^    void test();$/;"	p	class:ab	file:	access:private	signature:()
